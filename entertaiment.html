@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">Mega Shop</a>
+          <form class="d-flex">
+            <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="signUp">
+            <a href="" type="button">Sign up</a>
+            <div class="button">
+            <a href="" type="button">Log in</a>
+            <a href="" type="button">Sign up</a>
+            <img id="avatar" src="{% static "shop\avatar.png" %}" alt="photo">
+          </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <div class="wrapper">
+    <div class="container">
+      <div class="content">
+      <div class="menu">
+        <a href ="clothing.html" class="menu_item">
+          <img class="item__img" src="https://img.icons8.com/ios-glyphs/30/000000/hanger.png"/>
+          <p>Clothing & Shoes</p>
+        </a>
+        <a  href="/entertaiment.html" class="menu_item">
+          <img class="item__img d" src="https://img.icons8.com/android/24/000000/movie.png"/>
+          <p>Entertainment</p>
+        </a>
+        <a  href="/music.html" class="menu_item">
+          <img class="item__img other" src="https://img.icons8.com/ios-glyphs/30/000000/musical-notes.png"/>
+          <p>Music</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img"src="https://img.icons8.com/ios-filled/30/000000/barbell.png"/>
+          <p>Sport & Lifestyle</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img other1" src="https://img.icons8.com/ios-glyphs/30/000000/dog-bone.png"/>
+          <p>Pets</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img"src="https://img.icons8.com/ios-glyphs/30/000000/dining-room.png"/>
+          <p>Kitchen Accessories</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img"src="https://img.icons8.com/ios-glyphs/30/000000/binoculars.png"/>
+          <p>Travel Equipments</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img"src="https://img.icons8.com/ios-glyphs/30/000000/tulip.png"/>
+          <p>Growing & Garden</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img"src="https://img.icons8.com/ios-glyphs/30/000000/lightning-bolt--v1.png"/>
+          <p>Electrical Tools</p>
+        </a>
+        <a class="menu_item">
+          <img class="item__img"src="https://img.icons8.com/ios-filled/30/000000/stroller.png"/>
+          <p>Mother Care</p>
+        </a>
+      </div>
+      <div class="main">
+        <div class="content_link">
+          <p>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-All" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                All Categories
+              </a>
+              </p>
+                <div class="collapse" id="collapse-All">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-Electronic" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                Electronics
+              </a>
+              </p>
+                <div class="collapse" id="collapse-Electronic">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-B" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                Business & Industrial
+              </a>
+              </p>
+                <div class="collapse" id="collapse-B">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-C" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                Computers
+              </a>
+              </p>
+                <div class="collapse" id="collapse-C">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-CE" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                Consumer Electronics
+              </a>
+              </p>
+                <div class="collapse" id="collapse-CE">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-H" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                Home & Garden
+              </a>
+              </p>
+                <div class="collapse" id="collapse-H">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+              <p>
+              <a class="link_item" data-toggle="collapse" href="#collapse-CO" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+                Collectibles
+              </a>
+              </a>
+              </p>
+                <div class="collapse" id="collapse-CO">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+
+          </p>
+          <div class="collapsed-filters">
+            <p>
+              <a class="filters" data-toggle="collapse" href="#collapse-col" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Collapsed filters
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+              </a>
+              </p>
+                <div class="collapse" id="collapse-col">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+          </div>
+          <div class="expanded-filters">
+            <p>
+              <a class="filters" data-toggle="collapse" href="#collapse-col" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Expanded filters
+                <img src="https://img.icons8.com/material-rounded/30/000000/expand-arrow--v1.png"/>
+              </a>
+              </p>
+                <div class="collapse" id="collapse-col">
+                  <div>
+                    <ul>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                    </ul>
+                  </div>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div  id="swup" class="main_content transition-fade">
+          <div class="cards">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+              <p>About Staff</p>
+              <div>
+                <p class="price">$48.9</p>
+                <button>Buy</button>
+              </div>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+                <p>About Staff</p>
+                <div>
+                  <p class="price">$48.9</p>
+                  <button>Buy</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+                <p>About Staff</p>
+                <div>
+                  <p class="price">$48.9</p>
+                  <button>Buy</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+                <p>About Staff</p>
+                <div>
+                  <p class="price">$48.9</p>
+                  <button>Buy</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+                <p>About Staff</p>
+                <div>
+                  <p class="price">$48.9</p>
+                  <button>Buy</button>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+                <p>About Staff</p>
+                <div>
+                  <p class="price">$48.9</p>
+                  <button>Buy</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5UoNCeIb8jgQPIu815us7glZj89-BdymXLQ&usqp=CAU" alt="photo">
+                <p>About Staff</p>
+                <div>
+                  <p class="price">$48.9</p>
+                  <button>Buy</button>
+                </div>
+              </div>
+
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <footer class="footer"></footer>
+  </div>
+</body>
+</html>
